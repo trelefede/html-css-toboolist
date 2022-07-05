@@ -23,6 +23,11 @@ header div {
 
 /* end intestazione */
 
+main {
+    width: 1123px;
+    height: 705px;
+}
+
 /* menu selezione */
 
 nav input {
@@ -36,3 +41,10 @@ nav input {
 }
 
 /* end menu selezione */
+
+/* corpo centrale */
+
+.contenitore {
+    width: 561px;
+    margin: 30px auto 5px auto;
+}
