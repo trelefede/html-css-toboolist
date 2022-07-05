@@ -55,3 +55,25 @@ nav input {
 .formattazione-corpocentrale {
     padding: 15px 70px 15px;
 }
+
+.formattazione-section {
+    line-height: 240%;
+    padding: 10px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li span {
+    background-color: #9c73e4;
+    border-radius: 11px;
+    padding: 5px;
+}
+
+.different-tag {
+    background-color: #2cc327;
+    border-radius: 11px;
+    padding: 5px;
+}
