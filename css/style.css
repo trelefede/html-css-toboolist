@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font: sans-serif;
 }
-
 
 /* intestazione */
 
@@ -59,7 +58,7 @@ nav input {
 .formattazione-section {
     line-height: 240%;
     padding: 10px;
-
+    font-family: sans-serif;
 }
 
 ul {
@@ -76,4 +75,20 @@ li span {
     background-color: #2cc327;
     border-radius: 11px;
     padding: 5px;
+}
+
+.check {
+    background-color: white;
+    border-style: solid;
+    border-color: #2cc327;
+    padding: 2px 3px;
+    color: #2cc327;
+}
+
+.cross {
+    background-color: white;
+    border-style: solid;
+    border-color: #be1616;
+    padding: 2px 5px;
+    color: #be1616;
 }
