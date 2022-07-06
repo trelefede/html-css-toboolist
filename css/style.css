@@ -1,8 +1,14 @@
+/* generics */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f6f8f9;
 }
 
 /* intestazione */
@@ -18,14 +24,13 @@ header h1 {
 
 header div {
     padding: 20px;
+    background-color: white;
 }
 
 /* end intestazione */
 
 main {
-    width: 1123px;
-    height: 705px;
-    background-color: #f6f8f9;
+    max-width: 1190px;
     padding-top: 10px;
 }
 
@@ -69,6 +74,7 @@ li span {
     background-color: #9c73e4;
     border-radius: 11px;
     padding: 5px;
+    text-align: center;
 }
 
 .different-tag {
@@ -79,16 +85,20 @@ li span {
 
 .check {
     background-color: white;
+    border-radius: 50%;
     border-style: solid;
     border-color: #2cc327;
-    padding: 2px 3px;
+    padding: 2px 5px;
     color: #2cc327;
+    text-align: center;
 }
 
 .cross {
     background-color: white;
+    border-radius: 50%;
     border-style: solid;
     border-color: #be1616;
     padding: 2px 5px;
     color: #be1616;
+    text-align: center;
 }
